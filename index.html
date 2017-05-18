@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My To Do list</title>
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Jim+Nightshade|Griffy|Kaushan+Script" rel="stylesheet">
+      <link rel="stylesheet" href="decision.css" type="text/css">
+
+  </head>
+  <body>
+    <h1>My To-Do List</h1>
+   <input type="textbox" id="tasks" placeholder="add your task" />
+      <input type="button" value="Add " id="ADD" onclick="addTask('ToDoListTable')" />
+      <input type="button" value="Delete " id="ADD" onclick="removeTasks('ToDoListTable')" />
+       <table id="ToDoListTable" width="350px" border="1" border-radius="2">
+          </table>
+
+  Total tasks pending <a id="pTotal"></a>
+
+
+  </body>
+    <script type="text/javascript" src="decision.js"></script>
+</html>
